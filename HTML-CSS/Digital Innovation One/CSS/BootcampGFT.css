@@ -1,31 +1,74 @@
-*{
-    margin =0;
-    padding =0;
-    box-sizing: border-box;
 
- }
- body{
-    height:100%;
-    max-height:100vw;
-    width:100%;
-    max-width:170vh;
-    background-image:url(https://cdn.pixabay.com/photo/2016/06/22/11/10/box-1472804__340.png);
-    background-attachment:top;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-color:black;
-    color:black;
-    min-width:300px;
- }
+body{
+    background-color: black;
+    background-size: cover;
+}
+p{
+    color:white;
+    position: relative;
+    top:120px;
+    font-size:14px;
+    font-family:arial;
+}
+.p{
+    text-align:center;
+    font-size:32px;
+    color:white;
+    border-top:40px solid white;
+    border-bottom:40px solid white;
+    text-shadow:2px 2px 2px blue;
+    position:relative;
+    bottom:10px;
+}
+img.rt{
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20190826/pngtree-dark-abstract-background-with-overlap-layers-image_305024.jpg);
+    position:absolute;
+    height:500px;
+    width: 1500px;
 
+
+}
+h1{
+    text-align:center;
+    color:white;
+    position:relative;
+    top:150px;
+    right:200px
+    font-family:arial;
+}
+header.pt{
+    position:relative;
+    text-align: justify;
+    color:white;
+    left:400px;
+}
+h2.posts{
+    top:170px;
+    color:white;;
+    left:275px;
+    position:relative;
+}
 img.gs{
         max-height: 100%;
-        height: 290px;
+        height: 280px;
         max-width: 100%;
         width: 260px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;     
+        position:relative;
+        top:270px;
+}
+ul{
+    position:relative;
+    color:white;
+    top:200px;
+    padding-bottom:30px;
+    font-size:22px;
+    font-family:fantasy;
+}
+marquee{
+    color:white;
+    text-shadow:2px 1px mediumaquamarine;
+    font-size:14px;
+    font-family:arial;
 }
 #subt ,.posts ,.post_title {
 
