@@ -1,14 +1,25 @@
 
+*{
+    padding:0px;
+    border:0px;
+}
 body{
     background-color: black;
-    background-size: cover;
+    position:relative;
+    width: 100%;
+    margin:0px 0px;
+    padding:0px 0px;
+    border:0px 0px;
+    overflow-x: hidden;
+
 }
 p{
     color:white;
     position: relative;
     top:120px;
-    font-size:14px;
+    font-size:20px;
     font-family:arial;
+    text-align: center;
 }
 .p{
     text-align:center;
@@ -16,15 +27,21 @@ p{
     color:white;
     border-top:40px solid white;
     border-bottom:40px solid white;
-    text-shadow:2px 2px 2px blue;
+    text-shadow:2px 2px blue;
     position:relative;
     bottom:10px;
 }
 img.rt{
     background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20190826/pngtree-dark-abstract-background-with-overlap-layers-image_305024.jpg);
-    position:absolute;
-    height:500px;
-    width: 1500px;
+    background-repeat:no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    border-top:2px solid royalblue;
+    border-bottom:2px solid royalblue;
+    border-left:2px solid royalblue;
+    border-right:2px solid royalblue;
 
 
 }
@@ -33,7 +50,7 @@ h1{
     color:white;
     position:relative;
     top:150px;
-    right:200px
+    right:200px;
     font-family:arial;
 }
 header.pt{
@@ -54,20 +71,30 @@ img.gs{
         max-width: 100%;
         width: 260px;
         position:relative;
-        top:270px;
+        top:280px;
+        border-radius: 50%;
+        
 }
 ul{
-    position:relative;
     color:white;
-    top:200px;
-    padding-bottom:30px;
     font-size:22px;
     font-family:fantasy;
+    list-style-type: none;
+    padding:0px;
+    left:6px;
+    padding-top:200px;
+    text-align: center;
+    text-shadow:1px 1px white ;
+}
+.listaContatos li a{
+    color:red;
+    margin:auto;
+    padding:auto;
 }
 marquee{
     color:white;
-    text-shadow:2px 1px mediumaquamarine;
-    font-size:14px;
+    text-shadow:1px 1px mediumaquamarine;
+    font-size:18px;
     font-family:arial;
 }
 #subt ,.posts ,.post_title {
