@@ -6,10 +6,8 @@
 body{
     background-color: black;
     position:relative;
-    width: 100%;
-    margin:0px 0px;
-    padding:0px 0px;
-    border:0px 0px;
+    max-width: 100%;
+    margin:auto;
     overflow-x: hidden;
 
 }
@@ -38,12 +36,6 @@ img.rt{
     width: 100%;
     height: 500px;
     background-size: cover;
-    border-top:2px solid royalblue;
-    border-bottom:2px solid royalblue;
-    border-left:2px solid royalblue;
-    border-right:2px solid royalblue;
-
-
 }
 h1{
     text-align:center;
@@ -61,7 +53,7 @@ header.pt{
 }
 h2.posts{
     top:170px;
-    color:white;;
+    color:white;
     left:275px;
     position:relative;
 }
@@ -105,4 +97,15 @@ marquee{
     font-size:16px;
     font-family:Arial;
     font-style: italic;
+}
+button{
+    color: white;
+    background-color:grey;
+    position:relative;
+    background-position:top;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+    border:1px solid grey;
+
 }
